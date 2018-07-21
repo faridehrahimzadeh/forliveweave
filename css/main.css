@@ -1,0 +1,87 @@
+blockquote, body, dd, dl, dt, fieldset, figcaption, figure, form, h1, h2, h3, h4, h5, h6, hr, html, legend, li, ol, p, pre, table, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+/* formating */
+.wrapper {
+  padding: 0 10%;
+}
+.content {
+  padding: 20px;
+}
+
+/* elements  */
+
+#profile-photo {
+  float: left;
+  border-radius: 50%;
+  min-width: 300px;
+  padding: 3px;
+  margin: 30px;
+  border: 4px #dededeb3 solid;
+
+}
+#title {
+  font-size: 50px;
+}
+#title span {
+  font-size: 80px;
+}
+#purple-header {
+  padding-bottom: 150px;
+}
+
+main {
+  transform: skew(0, -5deg);
+  background-color:  white;
+  margin-top: -150px;
+}
+main .content {
+  transform: skew(0, 5deg);
+  padding: 150px 10%;
+  padding-top: 150px;
+
+
+}
+footer {
+  background-color: #163e4d;
+   color: white;
+   position: relative;
+
+}
+footer p {
+  text-align: center;
+  padding: 30px 0;
+}
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+#siz {
+  font-size: 13px;
+}
+
+.p-0{
+  padding: 0;
+}
+.p-1 {
+  padding: 10px;
+}
+.p-2 {
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 20px 0;
+  font-family: 'Montserrat', sans-serif;
+}
+/* styling */
+.purpel-bg {
+  background: #4f235c;
+  color: white;
+}
